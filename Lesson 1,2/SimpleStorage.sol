@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.8;
-contract SimpleStorgae{
+contract SimpleStorage{
     uint256 favouriteNumber; //This is initialized as zero
     mapping(string => uint256) public nameTofavouriteNumber;
     // People public person1=People({favouriteNumber:1, name:Rohit});
